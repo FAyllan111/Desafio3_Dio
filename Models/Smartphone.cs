@@ -7,10 +7,10 @@ namespace Celular.Models
 {
     public abstract class Smartphone
     {
-        public string Numero { get; set}
-        protected string Modelo{ get; set; }
-        protected string IMEI{ get; set; }
-        protected int Memoria{ get; set; }
+        public string Numero { get; set; }
+        private string Modelo{ get; set; }
+        private string IMEI{ get; set; }
+        private int Memoria{ get; set; }
 
         // implementar classes faltantes de acordo com o diagrama -ok
 
@@ -22,15 +22,15 @@ namespace Celular.Models
             Memoria = memoria; 
             // construtor para as outras propriedades
         }
-
+        
         public void Ligar()
         {
             Console.WriteLine("Ligando...");
         }
 
-        public void ReceberLigação()
+        public void ReceberLigacao()
         {
-            Console.WriteLine("Recebendo ligação...")
+            Console.WriteLine("Recebendo ligação...");
         }
 
         public abstract void InstalarAplicativo(string nomeApp);

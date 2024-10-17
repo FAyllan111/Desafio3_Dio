@@ -1,14 +1,15 @@
 ﻿using Celular.Models;
 
-IPhone iph = new IPhone();
-Nokia nok = new Nokia();
+IPhone iph = new IPhone("123456", "X Pro", "2580",128);
+Nokia nok = new Nokia("654321", "Tijolão", "1379",2);
 
-iph.Numero(123456);
-iph.Modelo("X Pro");
-iph.IMEI(2580);
-iph.Memoria(128);
+Console.WriteLine("=> IPhone:");
+iph.Ligar(); 
+iph.ReceberLigacao();
+iph.InstalarAplicativo("Facebook 2");
 
-nok.Numero(654321);
-nok.Modelo("Tijolão");
-nok.IMEI(1379);
-nok.Memoria(1);
+Console.WriteLine("=> Nokia:");
+
+nok.ReceberLigacao();
+nok.Ligar();
+nok.InstalarAplicativo("WhatsApp 2");

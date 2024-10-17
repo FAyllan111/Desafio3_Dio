@@ -12,3 +12,4 @@ C:\Users\Francisco.Esilva\Documents\Celular\obj\Debug\net8.0\refint\Celular.dll
 C:\Users\Francisco.Esilva\Documents\Celular\obj\Debug\net8.0\Celular.pdb
 C:\Users\Francisco.Esilva\Documents\Celular\obj\Debug\net8.0\Celular.genruntimeconfig.cache
 C:\Users\Francisco.Esilva\Documents\Celular\obj\Debug\net8.0\ref\Celular.dll
+C:\Users\Francisco.Esilva\Documents\Celular\obj\Debug\net8.0\Celular.sourcelink.json
